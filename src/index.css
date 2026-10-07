@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+:root {
+  font-family: 'Trebuchet MS', ui-sans-serif, sans-serif;
+  color: #24133b;
+  background: #faf8ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  color: #fff;
+  background: #6d28d9;
+}
