@@ -2,6 +2,8 @@
 
 A beginner-friendly React project for browsing campus study rooms and submitting booking requests. The app uses local mock data only. There is no backend or database, and bookings are held in React state until the page is refreshed.
 
+**Live website:** [StudySpace on GitHub Pages](https://mohammedyasir93.github.io/booking-system/)
+
 ## Requirements
 
 - Node.js 18 or newer
@@ -26,6 +28,7 @@ npm run preview
 ```text
 .
 |-- index.html
+|-- .github/workflows/deploy.yml
 |-- package.json
 |-- tailwind.config.js
 |-- vite.config.js
